@@ -1,0 +1,37 @@
+.menu .menu__link {
+  color: #fff;
+}
+
+.btn__down, .block__text__and__img, .title__container h2, .title__container4, .link__sub__menu, .contact, .copy h4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.btn__down i {
+  -webkit-transition: .2s linear;
+  transition: .2s linear;
+}
+
+.btn__down i:hover {
+  background-color: #FFD600;
+}
+
+.date p {
+  font-size: 12px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.header__title p {
+  font-size: 12px;
+  font-weight: bold;
+  color: #fff;
+}
+/*# sourceMappingURL=style_1.css.map */

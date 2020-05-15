@@ -1,0 +1,70 @@
+$c__white: #fff;
+$c__yellow: #FFD600;
+$b_border: 3px solid #FFD600;
+.menu {
+    .menu__link {
+        color: $c__white;
+    }
+}
+
+%all__block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn__down {
+    @extend %all__block;
+    i {
+        transition: .2s linear;
+        &:hover {
+            background-color: $c__yellow;
+        }
+    }
+}
+
+.block__text__and__img {
+    @extend %all__block;
+}
+
+.title__container {
+    h2 {
+        @extend %all__block;
+    }
+}
+
+.title__container4 {
+    @extend %all__block;
+}
+
+.link__sub__menu {
+    @extend %all__block;
+}
+
+.contact {
+    @extend %all__block;
+}
+
+.copy {
+    h4 {
+        @extend %all__block;
+    }
+}
+
+@mixin font ($color, $fontW) {
+    font-size: 12px;
+    font-weight: $fontW;
+    color: $color;
+}
+
+.date {
+    p {
+        @include font (#fff, bold);
+    }
+}
+
+.header__title {
+    p {
+        @include font (#fff, bold);
+    }
+}
